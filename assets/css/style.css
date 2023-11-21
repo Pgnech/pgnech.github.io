@@ -249,6 +249,12 @@ h6 {
   background-size: cover;
 }
 
+@media (max-width: 1199px) {
+  #hero {
+    background: url("../Own/JPEG/BackgroundMobile.jpeg");
+  }
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
